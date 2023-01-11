@@ -1,9 +1,4 @@
 ﻿using MyFirstProgram.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyFirstProgram
 {
@@ -11,6 +6,7 @@ namespace MyFirstProgram
     {
         internal void AdditionGame(string message)
         {
+            //establishes random vars
             Console.WriteLine(message);
             var random = new Random();
             int score = 0;
